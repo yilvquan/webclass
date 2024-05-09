@@ -1,0 +1,263 @@
+a {
+    text-decoration: none;
+    font-size:xx-small;
+    text-align: center;
+}
+#onetitle{
+    font-size: 25px;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../components/image/home-banner@2x.jpg');
+    background-position: top;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.header-content h1 {
+    font-size: 5vh;
+    color: aliceblue;
+}
+
+.header-content h3 {
+    font-size: 2vh;
+    color: aliceblue;
+}
+
+.btn {
+    padding: 8px 15px;
+    background: rgb(248, 249, 249);
+    border-radius: 10px;
+    color: rgb(6, 133, 245);
+}
+
+ul {
+
+    list-style: none;
+}
+
+.navbar img {
+
+    
+    
+    width: 150px;
+    
+
+}
+
+.log li {
+    /* margin-right: 0.3vw; */
+    margin: 0 0.3vw;
+    text-align: center;
+    padding-bottom: 5px;
+
+    width: 80px;
+    height: 30px;
+
+    background: rgba(245, 245, 245, 0);
+    border-style: solid;
+
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+
+.log li a {
+    color: #ffffff;
+}
+
+.navbar {
+    position: absolute;
+    display: flex;
+    top: 0;
+
+    left: 0;
+    width: 95vw;
+    /* justify-content: center; */
+    justify-content: space-between;
+    padding: 1vw;
+    color: whitesmoke;
+
+}
+
+.log {
+    display: flex;
+
+
+}
+
+
+
+.section1 img {
+
+    display: flex;
+    width: 60vw;
+    margin: 0 auto;
+
+
+}
+.section1 h1{
+    font-size: 30px;
+}
+.section1 h2{
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.section1 a{
+    display: flex;
+   
+  
+    text-align: center;
+    width: 60px;
+    
+    /* padding: 8px 15px; */
+    padding-inline: 10px;
+    font-weight: 100;
+    
+    border-style: solid;
+    border-width: 1px;
+    color: black;
+    border-radius: 2px;
+    
+}
+.section2 {
+    /* display: flex; */
+    justify-content: space-between;
+    
+}
+
+.section2 div{
+    width: 30vw;
+    padding: 1vw;
+}
+.section2 div div h1{
+    font-size: 25px;
+}
+.section2 div div h2{
+    font-size: 15px;
+    font-weight: 100;
+}
+.section2 div div a{
+    color: rgb(67, 117, 225);
+    text-decoration:underline;
+}
+.end{
+    background: #e1e0e0;
+    height: 15vh;
+    text-align: center;
+    padding-top: 10vh;
+    
+}
+@media only screen and (max-width:850px) {
+    
+    .log li.lefts{
+     
+    
+        margin: 0 10px;
+        
+        /* padding-left: 10px; */
+        text-align: center;
+        line-height: 30px;
+        
+
+        width: 50px;
+        height: 30px;
+
+        background: rgba(245, 245, 245, 0);
+        border-style: solid;
+
+        border-radius: 10px;
+        border-color: aliceblue;
+    }
+    .log li.rights{
+     
+    
+        margin-right: 50px;
+        
+        /* padding-left: 10px; */
+        text-align: center;
+        line-height: 30px;
+        
+
+        width: 50px;
+        height: 30px;
+
+        background: rgba(245, 245, 245, 0);
+        border-style: solid;
+
+        border-radius: 10px;
+        border-color: aliceblue;
+    }
+    .navbar {
+        position: absolute;
+        display:flex;
+        top: 0;
+
+        left: 0;
+        width: 95vw;
+        /* justify-content: left; */
+        /* justify-content: space-between; */
+        padding: 20px;
+        color: whitesmoke;
+
+    }
+    .section1 img {
+
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    
+    
+    }
+    .section1 a{
+        
+        display: flex;
+       
+      
+        text-align: center;
+    
+        
+        
+        /* padding: 8px 15px; */
+        width: 50vw;
+        padding-left: 40vw;
+        
+        font-weight: 100;
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(0, 0, 0);
+        border-radius: 2px;
+        
+    }
+    .section2 {
+        display:block;
+        justify-content: space-between;
+        
+    }
+    .section2 div{
+        display:flex;
+        width: 100vw;
+        
+    }
+    .section2 div img{
+        width: 100px;
+        height: 100px;
+    }
+    .section2 div div {
+        display: block;
+    }
+}
